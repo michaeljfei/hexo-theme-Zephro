@@ -1,0 +1,23 @@
+{
+  "name": "hexo-theme-zephyr",
+  "version": "0.0.1",
+  "description": "🏹A beautiful theme for hexo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljfei/hexo-theme-zephyr.git"
+  },
+  "keywords": [
+    "hexo-theme",
+    "zephyr"
+  ],
+  "author": "Michaeljfei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaeljfei/hexo-theme-zephyr/issues"
+  },
+  "homepage": "https://github.com/michaeljfei/hexo-theme-zephyr#readme"
+}

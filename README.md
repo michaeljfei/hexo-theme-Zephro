@@ -1,1 +1,5 @@
-# hexo-theme-Zephro
+# hexo-theme-Zephyr
+
+# LICENSE
+---
+MIT

@@ -1,0 +1,4 @@
+include ./includes/header.pug
+body
+  .pages-links: each post in page.posts.data
+    .page-link: a.title(href=url_for(post.path)) #{ post.title }

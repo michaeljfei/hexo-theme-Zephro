@@ -1,0 +1,14 @@
+mixin head(title)
+  doctype html
+  html(lang="zh-CN")
+    head
+      meta(charset="UTF-8")
+      meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+      meta(name="author", content=config.author)
+      meta(name="description", content=config.description)
+      //- link stylesheet files
+      if theme.css !== undefined && theme.css.length > 0
+        each url in theme.css
+          link(rel='stylesheet', href=url)
+      title #{ title }
+    

@@ -1,4 +1,6 @@
-include ./includes/header.pug
+include ./mixins/head.pug
++head(config.title)
 body
-  .pages-links: each post in page.posts.data
+  .page-links: each post in page.posts.data
     .page-link: a.title(href=url_for(post.path)) #{ post.title }
+    p ???

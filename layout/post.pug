@@ -1,5 +1,5 @@
-include ./includes/header.pug
-
+include ./mixins/head.pug
++head(page.title)
 body
   div #{ date(page.date, "YYYY-MM-DD") }
   div !{ page.content }
